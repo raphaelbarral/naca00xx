@@ -33,6 +33,10 @@ down = np.array([xdown, ydown])
 # Le graphique est tracé
 plt.plot(up[0,:], up[1,:])
 plt.plot(down[0,:], down[1,:])
+plt.title(f'Profil NACA {naca}')
+plt.xlabel('Axe x')
+plt.ylabel('Axe y')
+plt.grid()
 plt.show()
 
 #Calcul de l'épaisseur max ainsi que la position ou ele est atteinte
